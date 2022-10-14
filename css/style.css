@@ -111,6 +111,7 @@ section {
   background: #000;
 }
 
+
 .header .logo {
   font-weight: bolder;
   color: #fff;
@@ -171,6 +172,22 @@ section {
   font-size: 5rem;
   color: #fff;
   padding: 1rem 0;
+}
+.plans{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.card{
+  height: 350px;
+  width:350px;
+}
+.card .card-img-top{
+  height: 200px;
+  width: 200px;
+  align-self:center ;
+  padding: 25px;
+  width: 100%;
 }
 
 .swiper-pagination-bullet {
