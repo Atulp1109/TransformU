@@ -12,7 +12,15 @@
   -webkit-transition: all .2s linear;
   transition: all .2s linear;
 }
-
+.header{
+  height:60px;
+  padding: 7px 7px;
+}
+.logo{
+float:left;
+height: 10px;
+ 
+}
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
