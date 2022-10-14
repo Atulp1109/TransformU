@@ -163,13 +163,13 @@ section {
 
 .home .slide .content span {
   font-size: 2rem;
-  color: #f00;
+  color: rgb(196, 21, 21);
   display: block;
 }
 
 .home .slide .content h3 {
   font-size: 5rem;
-  color: #fff;
+  color: rgb(2, 2, 2);
   padding: 1rem 0;
 }
 
