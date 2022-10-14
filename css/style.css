@@ -153,24 +153,26 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .home .slide .content {
   width: 60rem;
+  align-self: flex-end;
 }
 
 .home .slide .content span {
   font-size: 2rem;
-  color: rgb(196, 21, 21);
+  color: rgb(243, 11, 11);
   display: block;
 }
 
 .home .slide .content h3 {
   font-size: 5rem;
-  color: rgb(2, 2, 2);
+  color: rgb(241, 234, 234);
   padding: 1rem 0;
+  float: left;
 }
 
 .swiper-pagination-bullet {
