@@ -21,6 +21,9 @@ float:left;
 height: 10px;
  
 }
+.logo img{
+  margin: -9px 21px;
+}
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
@@ -179,8 +182,10 @@ section {
   
 }
 .card{
+  border: 1px solid white;
   height: 350px;
   width:350px;
+  border-radius:30px;
 }
 .card .card-img-top{
   height: 200px;
@@ -189,6 +194,17 @@ section {
   padding: 25px;
   width: 100%;
 }
+.card-title{
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+}
+.card-text{
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+
 
 .swiper-pagination-bullet {
   height: 2rem;
