@@ -1,0 +1,75 @@
+.color{
+    text-align: center;
+    color:black;
+    border:4px solid red;
+    background-color: rgb(5, 18, 18);
+    color: aliceblue;
+}
+
+.fruitc{
+    background-image: url("images/fruitc.jpg");
+    height: 476px;
+    background-repeat: no-repeat;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+
+.fruite{
+    background-image: url("images/vegetables.jpg");
+    height: 476px;
+    background-repeat: no-repeat;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display:grid;
+  place-items:center;
+  
+}
+.vegf{
+    background-image: url("images/common_meals.jpg");
+    height: 476px;
+    background-repeat: no-repeat;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display:grid;
+  place-items:center;
+  
+}
+.fruitp{
+    background-image: url("images/dairy.jpg");
+    height: 476px;
+    background-repeat: no-repeat;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+.fruitg{
+    background-image: url("images/excercises.jpg");
+    height: 476px;
+    background-repeat: no-repeat;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+.h{
+    text-align: left;
+    
+    margin:  auto;
+    width: 955px;
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdA0Ddb5lGzTVCOfrQDnfZhFoK9HLHYMOA0g&usqp=CAU);
+}
+.scrollbar{
+
+}
+
