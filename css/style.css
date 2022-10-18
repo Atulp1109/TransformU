@@ -13,16 +13,16 @@
   transition: all .2s linear;
 }
 .header{
-  height:60px;
-  padding: 7px 7px;
+  /* height:60px;
+  padding: 7px 7px; */
 }
 .logo{
-float:left;
-height: 10px;
+/* float:left; */
+/* height: 10px; */
  
 }
 .logo img{
-  margin: -9px 21px;
+  /* margin: -9px 21px; */
 }
 html {
   font-size: 62.5%;
@@ -96,19 +96,15 @@ section {
 }
 
 .header {
-  position: fixed;
-  top: 0;
+  /* position: fixed; */
+  /* top: 0;
   left: 0;
-  right: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  right: 0; */
+  margin-top: 20px;
+  margin-bottom: -40px;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
+  align-items: center;
   padding: 0 9%;
   z-index: 10000;
   background: #000;
@@ -125,10 +121,18 @@ section {
   color: #f00;
 }
 
-.header .navbar a {
-  display: inline-block;
-  padding: 1.5rem 2rem;
-  font-size: 1.7rem;
+.header .navbar1{
+   display: flex;
+   align-items: center;
+
+}
+.header .navbar1 li{
+
+}
+.header .navbar1 li a {
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 20px;
   color: #fff;
 }
 
